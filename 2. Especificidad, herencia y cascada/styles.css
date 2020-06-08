@@ -1,0 +1,26 @@
+/* Pesos de selectores 
+    Etiqueta => 1
+    Clases y pseudocalses => 10
+    ID => 100
+    Estilos en línea => 1000
+    !import => Gana todo
+*/
+
+p {
+  color: purple;
+}
+
+/* Toma loa atributos del padre */
+a {
+  color: inherit;
+}
+
+/* Clase */
+.parrafo {
+    color: red;
+}
+
+/* ID */
+#parrafo {
+    color: green;
+}
